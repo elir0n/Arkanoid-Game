@@ -48,7 +48,14 @@ The game ends when all blocks are destroyed or the player loses all the balls.
 - Java 11+
 - [biuoop-1.4.jar](https://github.com/arieh/biuoop) (already included)
 
-### Compile and Run:
-```bash
-javac -cp biuoop-1.4.jar Arkanoid-Game-main/Ass5.java/src/**/*.java
-java -cp .:biuoop-1.4.jar game.Ass5Game
+### 🧭 Instructions (Windows CMD)
+
+1. Open a terminal and navigate to the `src` folder:
+   ```cmd
+   cd Arkanoid-Game-main\Ass5.java\src
+Compile the source code:
+javac -cp ..\..\biuoop-1.4.jar game\*.java geometry\*.java listeners\*.java sprites\*.java
+Run the game:
+java -cp .;..\..\biuoop-1.4.jar game.Ass5Game
+⚠️ Use ; as the classpath separator on Windows.
+If you're using Git Bash, Mac, or Linux, use : instead of ;.
