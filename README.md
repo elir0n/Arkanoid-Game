@@ -50,17 +50,23 @@ The game ends when all blocks are destroyed or the player loses all the balls.
 
 ### 🧭 Instructions (Windows CMD)
 
-Open a terminal and navigate to the `src` folder:
-   ```cmd
-   cd Arkanoid-Game-main\Ass5.java\src
+1. Open a terminal and navigate to the `src` folder:
 
-Compile the source code:
+    ```cmd
+    cd Arkanoid-Game-main\Ass5.java\src
+    ```
+
+2. Compile the source code:
+
     ```cmd
     javac -cp ..\..\biuoop-1.4.jar game\*.java geometry\*.java listeners\*.java sprites\*.java
+    ```
 
-Run the game:
+3. Run the game:
+
     ```cmd
     java -cp .;..\..\biuoop-1.4.jar game.Ass5Game
+    ```
 
-⚠️ Use ; as the classpath separator on Windows.
-If you're using Git Bash, Mac, or Linux, use : instead of ;.
+> ⚠️ Use `;` as the classpath separator on **Windows**.  
+> If you're using Git Bash, Mac, or Linux, use `:` instead.
